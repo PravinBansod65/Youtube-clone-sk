@@ -9,7 +9,7 @@ let channelHttp = "https://www.googleapis.com/youtube/v3/channels?";
 
 function getVideos(searchValue) {
   let url;
-  url = `${BASE_URL}/search?key=${API_KEY}&q=${searchValue}&type=video&part=snippet&maxResults=20`;
+  url = `${BASE_URL}/search?key=${API_KEY}&q=${searchValue}&type=video&part=snippet&maxResults=30`;
   fetch(url)
     .then((res) => res.json())
     .then((data) => {
