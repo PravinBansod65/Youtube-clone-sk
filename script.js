@@ -1,6 +1,6 @@
 
 
-const API_KEY = "AIzaSyCkKhuzGS5vmf_wreWgVMdhsy-z8teYJeYgi";
+const API_KEY = "AIzaSyCkKhuzGS5vmf_wreWgVMdhsy-z8teYJeY";
 // const API_KEY = "AIzaSyAO-TYd2kVQtS0J1gti4sCmDuQ81-S5m-c";
 // backup key =>"AIzaSyCkKhuzGS5vmf_wreWgVMdhsy-z8teYJeY"
 const BASE_URL = "https://www.googleapis.com/youtube/v3";
