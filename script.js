@@ -1,8 +1,8 @@
 
 
-const API_KEY = "AIzaSyD1DEQ8pB2Tq31jiGRduAD3hKc_Myi1AZo";
+const API_KEY = "AIzaSyCkKhuzGS5vmf_wreWgVMdhsy-z8teYJeYgi";
 // const API_KEY = "AIzaSyAO-TYd2kVQtS0J1gti4sCmDuQ81-S5m-c";
-//// backup key =>"AIzaSyCkKhuzGS5vmf_wreWgVMdhsy-z8teYJeY"
+// backup key =>"AIzaSyCkKhuzGS5vmf_wreWgVMdhsy-z8teYJeY"
 const BASE_URL = "https://www.googleapis.com/youtube/v3";
 let channelHttp = "https://www.googleapis.com/youtube/v3/channels?";
 // * --------------------GETTING VIDEOS---------------------------------------

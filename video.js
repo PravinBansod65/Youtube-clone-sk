@@ -1,4 +1,4 @@
-const API_KEY = "AIzaSyD1DEQ8pB2Tq31jiGRduAD3hKc_Myi1AZo";
+const API_KEY = "AIzaSyCkKhuzGS5vmf_wreWgVMdhsy-z8teYJeY";
 // AIzaSyALato09pGN6xcaDRjCE7TEi33h-dOgz1Q
 // const API_KEY = "https://mocki.io/v1/94fe6938-229a-4e84-853f-fc6b64022382";
 const BASE_URL = "https://www.googleapis.com/youtube/v3";
