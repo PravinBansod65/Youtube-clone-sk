@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 🔴 Youtube Clone ▶ </title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./video.css">
+    <link rel="shortcut icon" href="./assets/sk2.ico" type="image/x-icon">
+
+    <!-- Font Awesome -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <!-- bootstrap -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <!-- ! ----------------navbar------------------------------- -->
+    <nav class="navbar">
+        <section class="logoNbtn">
+            <div class="toggle-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <img class="logo" src="./images/YouTube-White-Full-Color-Logo.wine.svg" style="height: 55px;" alt="">
+        </section>
+        <section class="nav-search">
+            <input type="text" id="search-input" class="nav-input" placeholder="Search">
+            <button id="search-btn" class="nav_search_btn"><img src="./svgs/searchlogo.svg" alt=""></button>
+            <img class="voice-search" src="./svgs/mic.svg" alt="">
+        </section>
+
+        <section class="end">
+            <img src="./svgs/addvideo.svg" class="displaynav" alt="">
+            <img src="./svgs/apps.svg" class="displaynav" alt="">
+            <img src="./svgs/notification.svg" class="displaynav" alt="">
+            <img class="profile-img" src="./images/profileSK.jpg" alt="">
+
+        </section>
+    </nav>
+
+    <!-- !-------------nav End------------------------------------------ -->
+
+    <main class="80percdiv">
+        <section class="left">
+            <ol style="border: 1px solid black;" class="myDiv iframevideo" id="video-container">
+            </ol>
+            <div class="video_name" id="video_title_container">
+                <h3 id="video_title">GAADI KAALI Dance Cover | Neha Kakkar, Rohanpreet Singh | Mohit Jain's Dance
+                    Institute MJDi</h3>
+                <img src="./svgs/likeViewShare.svg" alt="">
+            </div>
+            <div class="channelnameSubscribe">
+                <span class="channelInfo" id="channelInfo">
+                    <img src="" class="channel-icon" alt="">
+                    <h5 class="channelName">silentCoder</h5>
+                    <p style="color:grey"></p>
+                </span>
+                <img src="./svgs/subscribe_logo.svg" class="subscribe" alt="">
+            </div>
+            <div id="description">
+                <p>
+
+
+                </p>
+            </div>
+            <hr class="border-line">
+
+            <div class="comments" id="comments">
+                <span>286 Comments</span>
+                <a><img src="images/menu.png" width="20px"> SORT BY</a>
+                <br>
+                <br>
+            </div>
+            <div class="public_comments">
+                <img src="./images/profileSK.jpg" class="profile-img" alt="">
+                <p>Add a public Comment</p>
+            </div>
+
+            <div class="other_comments" id="other_comments">
+                <!-- <img src="./images/profileSK.jpg" class="profile-img" alt="">
+                    <span class="break">Add a public channel-name</span>  -->
+                <!-- <p class="user_comment" id="user_comment">hello</p> -->
+
+            </div>
+            <!-- <br> -->
+
+
+        </section>
+        <section class="right">
+            <img class="relatedContent" src="./svgs/relatedcontent.svg" alt="">
+            <img class="relatedContent" src="./svgs/relatedcontent.svg" alt="">
+
+
+        </section>
+
+    </main>
+
+
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Anq07eqvUwc?autoplay=1" id="" frameborder="0" allowfullscreen></iframe> -->
+
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="./video.js"></script>
+</body>
+
+</html>
