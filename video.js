@@ -72,7 +72,7 @@ window.addEventListener("load", () => {
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
-        var cmnt;
+        var cmnt="";
         data.items
           .map((comment) => {
             cmnt += `<img src="${comment.snippet.topLevelComment.snippet.authorProfileImageUrl}" class="profile-img">
