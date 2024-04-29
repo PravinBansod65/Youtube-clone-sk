@@ -20,6 +20,23 @@ body {
   background: #212121;
 }
 
+.loader {
+  position: absolute;
+  top: 250px;
+  left: 55%;
+  height: 4px;
+  width: 130px;
+  --c:no-repeat linear-gradient(#605d65 0 0);
+  background: var(--c),var(--c),#e9e7ec;
+  background-size: 60% 100%;
+  animation: l16 3s infinite;
+}
+@keyframes l16 {
+  0%   {background-position:-150% 0,-150% 0}
+  66%  {background-position: 250% 0,-150% 0}
+  100% {background-position: 250% 0, 250% 0}
+}
+
 .navbar {
   position: fixed;
   top: 0px;
@@ -242,6 +259,9 @@ body {
     width: 100%;
     margin-left: 0;
   }
+  .loader{
+    left:36%
+  }
 
   .side-bar {
     display: none;
@@ -389,22 +409,7 @@ body {
   }
 } */
 
-.loader {
-  position: absolute;
-  top: 250px;
-  left: 55%;
-  height: 4px;
-  width: 130px;
-  --c:no-repeat linear-gradient(#605d65 0 0);
-  background: var(--c),var(--c),#e9e7ec;
-  background-size: 60% 100%;
-  animation: l16 3s infinite;
-}
-@keyframes l16 {
-  0%   {background-position:-150% 0,-150% 0}
-  66%  {background-position: 250% 0,-150% 0}
-  100% {background-position: 250% 0, 250% 0}
-}
+
 
 /* .loader {
   position: absolute;
