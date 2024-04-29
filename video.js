@@ -1,4 +1,9 @@
 const API_KEY = "AIzaSyBlyYvuHiQoDPCMA_gmP-4WCnUiSxa0iAU";
+<<<<<<< HEAD
+=======
+// AIzaSyALato09pGN6xcaDRjCE7TEi33h-dOgz1Q
+// const API_KEY = "https://mocki.io/v1/94fe6938-229a-4e84-853f-fc6b64022382";
+>>>>>>> 628a8cc32e2a00eb0d98c8d5c0207d3a342fe45d
 const BASE_URL = "https://www.googleapis.com/youtube/v3";
 
 // todo------------------------- Loading content --------------------------------------

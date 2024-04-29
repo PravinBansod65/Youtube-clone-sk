@@ -1,5 +1,12 @@
 const API_KEY = "AIzaSyAZBKd4a5uTkEF7yXq1IBph6Zfv1dtQ4TQ";
 
+<<<<<<< HEAD
+=======
+
+const API_KEY = "AIzaSyBlyYvuHiQoDPCMA_gmP-4WCnUiSxa0iAU";
+// const API_KEY = "AIzaSyAO-TYd2kVQtS0J1gti4sCmDuQ81-S5m-c";
+// backup key =>"AIzaSyCkKhuzGS5vmf_wreWgVMdhsy-z8teYJeY"
+>>>>>>> 628a8cc32e2a00eb0d98c8d5c0207d3a342fe45d
 const BASE_URL = "https://www.googleapis.com/youtube/v3";
 
 // let channelHttp = "https://www.googleapis.com/youtube/v3/channels?";
