@@ -1,15 +1,14 @@
-const API_KEY = "AIzaSyCkKhuzGS5vmf_wreWgVMdhsy-z8teYJeY";
-// AIzaSyALato09pGN6xcaDRjCE7TEi33h-dOgz1Q
-// const API_KEY = "https://mocki.io/v1/94fe6938-229a-4e84-853f-fc6b64022382";
+const API_KEY = "AIzaSyBlyYvuHiQoDPCMA_gmP-4WCnUiSxa0iAU";
 const BASE_URL = "https://www.googleapis.com/youtube/v3";
 
 // todo------------------------- Loading content --------------------------------------
 window.addEventListener("load", () => {
+  // it gives us '?videoId=videoid' like this
   const search = window.location.search;
   const params = new URLSearchParams(search);
 
   const videoId = params.get("videoId");
-  //    or we can get the videoid using localStorage.getItem
+  //      or we can get the videoid using localStorage.getItem
 
   if (YT) {
     new YT.Player("video-container", {
@@ -129,3 +128,11 @@ items: Array(1)
         liveBroadcastContent: "live"
         maxres :"url://"
 */
+
+
+// ! API KEYs 
+// const API_KEY = "AIzaSyBJrJHRcfvW07ah3ZzVV0xbQ1vKgK8Uy1U";
+// const API_KEY = "AIzaSyAGK0DOr4rKw4HMX_bd8YQYVtbK1omrCYw";
+// const API_KEY = "AIzaSyAZBKd4a5uTkEF7yXq1IBph6Zfv1dtQ4TQ
+// const API_KEY = "AIzaSyALato09pGN6xcaDRjCE7TEi33h-dOgz1Q";
+// const API_KEY = "https://mocki.io/v1/94fe6938-229a-4e84-853f-fc6b64022382";
